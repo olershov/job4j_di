@@ -1,4 +1,4 @@
-package annotation;
+package ru.job4j.annotation;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

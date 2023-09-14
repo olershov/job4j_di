@@ -1,10 +1,10 @@
-package annotation;
+package ru.job4j.annotation;
 
 import org.springframework.context.annotation.*;
 import org.springframework.core.annotation.Order;
 
 @Configuration
-@ComponentScan(basePackages = "annotation")
+@ComponentScan(basePackages = "ru/job4j/annotation")
 @PropertySource("classpath:application.properties")
 public class Config {
 

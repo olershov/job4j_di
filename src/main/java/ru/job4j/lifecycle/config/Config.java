@@ -1,6 +1,6 @@
-package lifecycle.config;
+package ru.job4j.lifecycle.config;
 
-import lifecycle.model.Product;
+import ru.job4j.lifecycle.model.Product;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,17 +1,17 @@
-package annotation;
+package ru.job4j.annotation;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Bird implements Pet<Bird> {
+public class Cat implements Pet<Cat> {
 
-    @Value("${bird.name:simpleBird}")
+    @Value("${cat.name}")
     private String name;
 
     @Override
     public String print() {
-        return "Bird name = %s".formatted(name);
+        return "Cat name = %s".formatted(name);
     }
 
     public void setName(String name) {

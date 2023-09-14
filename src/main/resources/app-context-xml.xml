@@ -6,12 +6,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="cat" class="annotation.Cat" p:name="Vaska"/>
-    <bean id="bird" class="annotation.Bird" p:name="simpleBird"/>
-    <bean id="getAlfaDog" class="annotation.Dog" p:name="AlfaDog"/>
-    <bean id="secondDog" class="annotation.Dog" p:name="SecondDog" />
-    <bean id="someDog" class="annotation.Dog" p:name="Dog" />
-    <bean id="man" class="annotation.Man"
+    <bean id="cat" class="ru.job4j.annotation.Cat" p:name="Vaska"/>
+    <bean id="bird" class="ru.job4j.annotation.Bird" p:name="simpleBird"/>
+    <bean id="getAlfaDog" class="ru.job4j.annotation.Dog" p:name="AlfaDog"/>
+    <bean id="secondDog" class="ru.job4j.annotation.Dog" p:name="SecondDog" />
+    <bean id="someDog" class="ru.job4j.annotation.Dog" p:name="Dog" />
+    <bean id="man" class="ru.job4j.annotation.Man"
           p:dog-ref="getAlfaDog"
           p:dog1-ref="someDog"
           p:bird-ref="bird"

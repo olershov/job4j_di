@@ -1,4 +1,4 @@
-package annotation;
+package ru.job4j.annotation;
 
 public class Dog implements Pet<Dog> {
 
