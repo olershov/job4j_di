@@ -7,10 +7,12 @@ import ru.job4j.aop.service.ProcessComment;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("job4j_di started");
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         ProcessComment process = context.getBean("processComment", ProcessComment.class);
         process.publishingComment(new Comment("this is a comment", "Petr"));
         process.deleteComment(1);
         context.close();
+        System.out.println("job4j_di finished");
     }
 }
